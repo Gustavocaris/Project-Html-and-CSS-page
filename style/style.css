@@ -3,3 +3,40 @@
 body {
     background-color: rgb(255, 255, 255);
 }
+
+
+/* essa pseudoclasse root é pra gente criar uma variavel
+dentro do CSS */
+:root {
+    --cor1: rgb(0, 255, 76);
+    --cor2: rgb(0, 189, 57);
+    --cor3: rgb(0, 133, 40);
+    --cor4: rgb(0, 150, 7);
+    --cor5: rgb(0, 255, 13);
+    --cor6: ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: var(--cor5);
+    background: linear-gradient(to top, rgb(4, 122, 0), rgb(4, 255, 37) );
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: red
+}
