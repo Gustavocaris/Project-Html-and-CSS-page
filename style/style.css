@@ -81,6 +81,7 @@ main {
 
 main img {
     width: 100%;
+    box-shadow: 0px 0px 10px rgb(0, 255, 13);
 }
 
 /*main .boneco {
@@ -122,8 +123,32 @@ main a:hover {
     text-decoration: underline;
 }
 
-main aside ul li {
+main aside {
+    background-color: rgb(61, 248, 124);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: -10px 10px 20px rgb(0, 17, 252);
+    
+}
+
+main aside h3 {
+    background-color: rgb(0, 117, 16);
+    font-size: 18px;
     text-indent: 30px;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+main aside ul {
+    columns: 2;
+    list-style-position: inside;
+    /* para colocar as bolinhas pro lado de dentro*/
 }
 
 footer {
